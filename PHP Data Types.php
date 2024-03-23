@@ -73,3 +73,11 @@ echo PHP_FLOAT_MAX * 2 ;
 echo "<br>";
 # NAN >> not a number
 echo log(-1);
+
+# array
+$codes = ['php','Java','Python'];
+$codes[] = 'C++';
+array_push($codes,'Go','C','JS');
+echo '<pre>';
+print_r($codes);
+echo '<pre/>';
